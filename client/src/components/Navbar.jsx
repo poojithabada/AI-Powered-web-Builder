@@ -24,7 +24,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-left">
         <Link to="/dashboard" className="navbar-brand">
-          <span className="navbar-brand-mark">&lt;/&gt;</span> NxtBuild
+          <span className="navbar-brand-mark">&lt;/&gt;</span> AIWeb Studio
         </Link>
         <div className="navbar-links">
           <Link to="/dashboard" className={`navbar-link ${isActive('/dashboard') ? 'active' : ''}`}>
